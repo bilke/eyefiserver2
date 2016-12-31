@@ -17,3 +17,11 @@ There is a similar project at
 
 See GettingStarted for more information on how to use eyefiserver2
 
+
+# Docker instructions
+
+Build and run:
+
+```bash
+docker build . -t eyefiserver2 && docker run -P -v /volume2/Gemeinsam/Scans:/usr/src/upload eyefiserver2
+```
